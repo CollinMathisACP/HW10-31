@@ -3,5 +3,27 @@
   <link href="style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
+    
+<svg width="800" height="800">
+    
+    <circle cx=400px cy=400px r=200px fill="yellow" stroke="black" stroke-width=2px />
+    
+    <ellipse cx=320 cy=320 rx=30 ry=20 />
+    <ellipse cx=480 cy=320 rx=30 ry=20 />
+    <ellipse cx=400 cy=450 rx=100 ry=40 stroke="red" stroke-width=2px />
+</svg>   
+
+<h1>Scales</h1>
+<p>
+    A scale is a function that takes an input of data (of a defined domain) and returns an output of data (of a defined range.) In practice, this is used to normalize data for visualization purposes.
+</p>
+<h2>Use 1</h2>
+<p>
+    Scales can be used to keep a data visualization program operational even as the domain of the data changes. By using the min and max functions, the scale function can create an array of output data that is normalized. This prevents the program from breaking if new data is outside the bounds of the original min and max.
+</p>
+<h2>Use 2</h2>
+<p>
+    Scales can also be used to directly impact the visualization itself. The dimensions of visual elements can be tied to the output of the scale functions. For example, the radius of a data point's circle can be proportional to its output from the scale function.
+</p>
 </body>
 </html>
